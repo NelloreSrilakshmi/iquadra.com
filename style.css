@@ -1,0 +1,336 @@
+
+.image{
+    height:100px; 
+    width:100px;
+    margin-left: 30px;
+    margin-top:10px;
+    display: flex;
+    align-items: center;
+}
+
+.image-main{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.flex-parent-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.flex-parent-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    color:white;
+    font-size:40px;
+    margin-left: 5px;
+    margin-bottom: 1px;
+}
+.main{
+    width:1480px;
+    height: 180px;
+    background-color:#043d5d;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.box{
+    display:block;
+    width: 650px;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    padding: 40px 30px; 
+    margin-left: 150px;
+    margin-top: 120px;
+    border:solid 2px cornsilk;
+}
+.box-1{
+    display: block;
+    background-color: white;
+    width: 230px;
+    height: 240px;
+    padding: 10px 20px; 
+    transition: transform 0.2s; 
+    box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-left: 10px;
+    margin-top: 1px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+ 
+.box-2{
+    display:block;
+    background-color: white;
+    width: 230px;
+    height: 240px;
+    padding: 10px 20px; 
+    transition: transform 0.2s; 
+    box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-left: 60px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box-3{
+    display:block;
+    background-color: white;
+    width: 230px;
+    height: 240px;
+    padding: 10px 20px; 
+    transition: transform 0.2s; 
+    box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-left: 10px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.box-4{
+    display:block;
+    background-color: white;
+    width: 230px;
+    height: 240px;
+    padding: 10px 20px; 
+    transition: transform 0.2s; 
+    box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-left: 60px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.main-1{
+    background-image:url(light.jpg);
+    height: 900px;
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    margin-top: 20px;
+    width:1480px;
+}
+.main-2{
+    background-image: url(technology.jpeg);
+    height:400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    width: 1480px;
+}
+.header{
+    font-size: 20px;
+    border:solid 2px #fff;
+    color:blue;
+}
+.quote{
+    color:black;
+}
+
+.button-area button{
+    background-color:#043d5d;
+    color:#fff;
+    font-size:20px;
+    padding:10px 15px;
+    margin-top: 25px;
+    border-radius: 5px;
+    margin-left: 260px;
+}
+.main-content .text-area{
+    font-size: 20px;
+    line-height: 1.5;
+    align-items: center;
+    margin-top: 30px;
+}
+.para{
+    align-content: center;
+    font-size: 25px;
+    margin-left: 80px;
+}
+
+.main-content{
+    width: 650px;
+    height: 250px;
+    background-color:rgb(190, 187, 187);
+    padding: 20px 10px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    -moz-box-align: center;
+}
+
+.card-1{
+    background-color:rgb(235, 232, 232);
+    width: 300px;
+    height: 500px;
+    padding: 5px 20px; 
+    transition: transform 0.2s; 
+    box-shadow:rgba(9, 11, 13, 0.2) 0px 8px 24px;
+    margin-left: 350px;
+    gap:5px;
+    margin-top: 30px;
+    border:solid 2px rgb(146, 180, 245);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-2{
+    background-color:rgb(236, 236, 236);
+    width: 300px;
+    height: 500px;
+    padding: 5px 20px; 
+    transition: transform 0.2s; 
+    box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-right:300px;
+    gap:1px;
+    margin-top: 30px;
+    border:solid 2px rgb(149, 182, 244);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.picture{
+    width:300px;
+    height:280px;
+    margin-top:12px;
+    margin-left: 1px;
+}
+.button-area-1 button{
+    background-color:#043d5d;
+    color:#fff;
+    font-size:15px;
+    padding:5px 5px;
+    margin-top: 15px;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+
+.main-3{ 
+    display: grid; 
+    grid-template-columns: auto auto;
+    gap:calc();
+    margin-top:30px;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #043d5d;
+}
+
+.footerContainer{
+    background-color:#043d5d;
+    height:200px;
+    margin-top: 10px;
+    padding: 70px 30px 20px;
+    width: 100%;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+} 
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.socialIcons a i{
+    font-size: 2em;
+}
+.socialIcons a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 10px 0px;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+.footerNav ul li a{
+    color: #fff;
+    text-decoration:solid;
+    font-size: 1.3em;
+    margin: 20px;
+}
+.footerNav ul li a:hover{
+    opacity:1;
+}
+.footerbottom{
+    padding:20px;
+    text-align:center;
+}
+.footerbottom p{
+    color:white;
+    margin-top: 2px;
+    font-size: 20px;
+}
+.footerNav ul li{
+    list-style-type: none;
+    text-decoration:none;
+}
+.points{
+    margin: 10px 0px;
+}
+.points ul li{
+    list-style-type: none;
+    text-decoration: solid;
+    margin: top 15px;
+    grid-template-rows: 2px;
+    margin-right: 20px;
+}
+.points ul{
+    display:flex;
+    justify-content:end;
+}
+.points ul li a{ 
+    color: #fff;
+    font-size: 20px;
+   text-decoration: solid;
+   margin: 2px; 
+   display:block;
+}
+.points ul li a:hover{
+    opacity:1;
+}
+span{
+    color:hotpink;
+}
+.points a:hover{
+    color:palevioletred;
+    transition: 0.5s;    
+}
+.points a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.name:hover{
+    color:pink;
+    transition: 0.5s;
+}
+.card-1:hover{
+    transform:scale(1.05);
+}
+.card-2:hover{
+    transform:scale(1.05);
+}
+.box-1:hover{
+    transform:scale(1.05);
+}
+.box-2:hover{
+    transform:scale(1.05);
+}
+.box-3:hover{
+    transform:scale(1.05);
+}
+.box-4:hover{
+    transform:scale(1.05);
+}
